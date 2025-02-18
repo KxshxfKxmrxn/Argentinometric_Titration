@@ -1,42 +1,31 @@
-"""
-###############################################################
-#               INTERACTIVE ARGENTOMETRIC METHOD              #
-#                   WITH APPARATUS ANIMATION                 #
-###############################################################
+# 🎨 Interactive Argentometric Titration Simulator  
 
-DESCRIPTION:
-This project is an interactive simulation of the argentometric titration method using Pygame. 
-It visually demonstrates the titration process by allowing users to add silver nitrate (AgNO3) 
-to a chloride-containing sample and observe color changes. The simulation calculates chloride 
-concentration in both mol/L and ppm while tracking scores and levels.
+### 🔬 A Pygame-Based Simulation of the Argentometric Method for Chloride Determination  
 
----------------------------------------------------------------
-FEATURES:
-✔ Click to add AgNO3 to the water sample.
-✔ Dynamic color change based on chloride concentration.
-✔ Real-time calculations of chloride concentration (mol/L and ppm).
-✔ Score and level tracking.
-✔ Reset button to restart the experiment.
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square)  
+![Pygame](https://img.shields.io/badge/Pygame-Simulator-green?style=flat-square)  
 
----------------------------------------------------------------
-INSTALLATION:
-import os
-print("\n>>> Cloning Repository...")
-os.system("git clone <repository-url>")
-print("\n>>> Changing Directory...")
-os.chdir("argentometric-titration-simulation")
-print("\n>>> Installing Dependencies...")
-os.system("pip install -r requirements.txt")
-print("\n>>> Setup Complete! ✅\n")
+## 📌 Overview  
 
----------------------------------------------------------------
-USAGE:
-print("\n>>> Running the Argentometric Titration Simulation...")
-os.system("python argentometric_titration.py")
-print("\n>>> Enjoy the Experiment! 🎯\n")
+This project is an *interactive simulator* built using *Pygame* that visually demonstrates the *argentometric titration* method. The user can add silver nitrate (*AgNO₃) to a water sample containing chloride ions and observe the **color changes* in the beaker as the titration progresses. The simulation calculates and displays the chloride concentration in *mol/L* and *ppm (parts per million)*, making it a great educational tool for chemistry students and enthusiasts.  
 
----------------------------------------------------------------
-DEPENDENCIES:
-See `requirements.txt` for required Python packages.
+## ✨ Features  
 
-"""
+✔ *Graphical Beaker & Apparatus* – Visual representation of titration setup.  
+✔ *Dynamic Color Change* – Beaker color changes based on chloride concentration.  
+✔ *Real-Time Calculations* – Computes chloride concentration in mol/L and ppm.  
+✔ *Interactive Experiment* – Click to add AgNO₃ and observe titration in action.  
+✔ *Scoring System* – Earn points for each titration step.  
+✔ *Reset Experiment* – Restart the simulation anytime.  
+
+## 📸 Screenshot  
+
+🚀 Coming Soon! (You can add a screenshot of the running simulator here)  
+
+## 🛠 Installation & Setup  
+
+1️⃣ *Install Python* (Make sure you have Python *3.x* installed)  
+2️⃣ *Install Pygame* (if not already installed)  
+
+```sh
+pip install pygame
